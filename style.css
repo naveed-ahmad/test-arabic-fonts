@@ -68,12 +68,6 @@
   src: url('fonts/scheherazade-webfont.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: xb_zar;
-  font-weight: normal;
-  src: url('fonts/xb_zar-webfont.ttf') format('truetype');
-}
-
 .font-amiri {
   font-family: Amiri;
 }
@@ -119,4 +113,32 @@ textarea {
 .fonts-example--example {
   line-height: 2;
   white-space: nowrap;
+}
+
+#qalqala, .qalqala {
+  color: #0000CC;
+}
+#ra2, .ra2 {
+  color: #000066;
+}
+#lazem, .lazem {
+  color: #990000;
+}
+#monfsel, .monfsel {
+  color: #9900CC;
+}
+#motsel, .motsel {
+  color: #FF0000;
+}
+#3ared, .3ared {
+  color: #FF6600;
+}
+#sela, .sela {
+  color: #996600;
+}
+#e5fa2, .e5fa2 {
+  color: #009933;
+}
+#edgham, .edgham {
+  color: #999999;
 }
