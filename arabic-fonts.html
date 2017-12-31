@@ -128,7 +128,7 @@
       location.hash = arrayToHash({
         fontSize : tag.fontSize,
         fontBold : tag.fontBold,
-        text     : tag.currentText,
+        text     : encodeURI(tag.currentText)
       })
     })
     
@@ -148,3 +148,6 @@
     
   </script>
 </raw>
+
+
+
