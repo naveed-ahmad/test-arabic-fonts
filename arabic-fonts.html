@@ -18,13 +18,19 @@
       <label class="checkbox">
         <input type="checkbox" onchange={ setFontBold } checked={ fontBold }> Bold text
       </label>
-    </div>      
+    </div>
+
+    <div class="form-item form-checkboxes">
+      <label class="checkbox">
+        <input type="checkbox" onchange={ setTajweedText }> Test tajweed colors
+      </label>
+    </div>
 
     <div class="form-item">
         <label>Text for checking</label>
         <textarea oninput={ setNewText } rows="2">{ currentText }</textarea>
-    </div>    
-  </form>  
+    </div>
+  </form>
   
   <div class='fonts-examples'>
     <div class='fonts-example' each={ font in fonts }>
@@ -37,23 +43,24 @@
   
   <script>
     const tag = this
-    
+    const tajweed = ' ٱللَّهُ <span class="monfsel" id="monfsel">لَآ</span>  إِلَ&zwj;<span class="sela" id="sela">ـٰ&zwj;</span>&zwj;هَ إِلَّا هُوَ ٱلۡحَىُّ ٱلۡقَيُّومُ&zwnj;<span class="sign_tag">&nbsp;ۚ</span> لَا تَأۡخُذُهُ <span class="sela" id="sela">ۥ</span> سِنَة<span class="edgham" id="edgham"> &zwj;ٌ</span> <span class="e5fa2" id="e5fa2">وَ</span>لَا نَوۡم<span class="edgham" id="edgham"> &zwj;ٌ</span>&zwj;<span class="sign_tag">&nbsp;ۚ</span> لَّهُ <span class="sela" id="sela">ۥ</span> مَا فِى ٱ<span class="edgham" id="edgham">ل&zwj;</span>&zwj;سَّمَ&zwj;<span class="sela" id="sela">ـٰ&zwj;</span>&zwj;وَ&zwj;<span class="sela" id="sela">&zwj;ٰ&zwj; </span>تِ وَمَا فِى ٱلۡأَ&zwj;<span class="ra2" id="ra2">رۡ</span>ضِ&zwnj;<span class="sign_tag">&nbsp;ۗ</span> مَ&zwj;<span class="e5fa2" id="e5fa2">ن</span> ذَا ٱلَّذِى يَشۡفَعُ عِ&zwj;<span class="e5fa2" id="e5fa2">ن&zwj;</span>&zwj;دَهُ <span class="monfsel" id="monfsel">ۥٓ</span> إِلَّا بِإِذۡنِهِ<span class="sela" id="sela">ۦ</span><span class="sign_tag">&nbsp;ۚ</span> يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡ&zwnj;<span class="sign_tag">&nbsp;ۖ</span> وَلَا يُحِيطُونَ بِشَىۡء<span class="edgham" id="edgham"> &zwj;ٍ</span> &zwj;<span class="e5fa2" id="e5fa2">&zwj;مَّ&zwj;</span>&zwj;نۡ عِلۡمِهِ<span class="monfsel" id="monfsel">ۦٓ&zwj;</span>&zwj; إِلَّا بِمَا شَ&zwj;<span class="motsel" id="motsel">&zwj;آ</span>&zwj;ءَ&zwnj;<span class="sign_tag">&nbsp;ۚ</span> وَسِعَ كُ&zwj;<span class="ra2" id="ra2">رۡ</span>سِيُّهُ ٱ<span class="edgham" id="edgham">ل&zwj;</span>&zwj;سَّمَ&zwj;<span class="sela" id="sela">ـٰ&zwj;</span>&zwj;وَ&zwj;<span class="sela" id="sela">&zwj;ٰ&zwj; </span>تِ وَٱلۡأَ&zwj;<span class="ra2" id="ra2">رۡ</span>ضَ&zwnj;<span class="sign_tag">&nbsp;ۖ</span> وَلَا يَـُٔودُهُ <span class="sela" id="sela">ۥ</span> حِفۡظُهُمَا&zwnj;<span class="sign_tag">&nbsp;ۚ</span> وَهُوَ ٱلۡعَلِىُّ ٱلۡعَظِ&zwj;<span class="3ared" id="3ared" style="color:#FF6600">&zwj;ي&zwj;</span>&zwj;مُ ';
+
     tag.fonts = [
       'KFGQPC Uthmanic Script HAFS',
       'UthmanTN1_Ver06',
       'me_quranR3HOQ',
+      'pdms_saleem',
       'Amiri',
+      'AmiriQuranColored',
       'Katibeh',
       'Lateef',
       'Mirza',
       'Scheherazade',
       'QuranTaha',
       'QuranTahaOld',
-      'AmiriQuranColored',
       'GE_Dinar_One_Medium',
       'kfc_naskh',
       'noorehuda',
-      'pdms_saleem',
       'scheherazade'
     ]
     
@@ -124,6 +131,10 @@
       tag.fontBold = event.target.checked
     }
     
+    tag.setTajweedText = function ( event ) {
+      tag.currentText = tajweed;
+    }
+    
     tag.on('updated', function() {
       location.hash = arrayToHash({
         fontSize : tag.fontSize,
@@ -138,12 +149,12 @@
 <raw>
   <span></span>
   <script>
-    var tag = this
-    
-    tag.root.innerHTML = opts.content
+    var _tag = this
+
+    _tag.root.innerHTML = opts.content
     
     this.on('update', function() {
-      tag.root.innerHTML = opts.content
+      _tag.root.innerHTML = opts.content
     })
     
   </script>
