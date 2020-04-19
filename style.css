@@ -2,6 +2,7 @@
     font-family: 'me_quranR3HOQ';
     src: url(fonts/me_quranR3HOQ.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'KFGQPC Uthmanic Script HAFS';
     font-style: normal;
@@ -9,11 +10,11 @@
 
     src:
         local('KFGQPC Uthmanic Script HAFS'),
-        url(fonts/uthmanichafs1-ver09.otf) format('opentype')
-    ;
+        url(fonts/uthmanichafs1-ver09.otf) format('opentype');
 
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
 }
+
 @font-face {
     font-family: 'UthmanTN1_Ver06';
     font-style: normal;
@@ -68,6 +69,24 @@
   src: url('fonts/scheherazade-webfont.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: "Zekr Quran";
+    src: local("Zekr Quran"),
+         url("fonts/ZekrQuran/ZekrQuran.eot");
+    src: url("fonts/ZekrQuran/ZekrQuran.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ZekrQuran/ZekrQuran.woff2") format("woff2"),
+    url("fonts/ZekrQuran/ZekrQuran.woff") format("woff"),
+    url("fonts/ZekrQuran/ZekrQuran.ttf") format("truetype"),
+    url("fonts/ZekrQuran/ZekrQuran.svg#Zekr Quran") format("svg");
+}
+
+@font-face {
+    font-family: "muhammadi";
+    font-weight: normal;
+    scr: url("fonts/muhammadi.ttf") format('truetype');
+}
+
+
 .font-amiri {
   font-family: Amiri;
 }
@@ -118,18 +137,22 @@ textarea {
 #qalqala, .qalqala {
   color: #0000CC;
 }
+
 #ra2, .ra2 {
   color: #000066;
 }
+
 #lazem, .lazem {
   color: #990000;
 }
+
 #monfsel, .monfsel {
   color: #9900CC;
 }
 #motsel, .motsel {
   color: #FF0000;
 }
+
 #3ared, .3ared {
   color: #FF6600;
 }
