@@ -63,7 +63,10 @@
       'noorehuda',
       'scheherazade',
       'Zekr Quran',
-      'muhammadi'
+      'muhammadi',
+      'Mehr',
+      'AlQalam',
+      'NooreHira'
     ]
     
     let params = hashToArray()
@@ -126,6 +129,8 @@
         font-family: "${font}";
         font-size: ${tag.fontSize}px;
         font-weight: ${tag.fontBold ? 'bold' : 'normal'};
+        direction: rtl;
+       unicode-bidi: isolate;
       `
     }
     

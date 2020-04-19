@@ -55,7 +55,7 @@
 @font-face {
   font-family: noorehuda;
   font-weight: normal;
-  src: url('fonts/noorehuda.ttf') format('truetype');
+  src: url('fonts/NooreHuda.ttf') format('truetype');
 }
 @font-face {
   font-family: pdms_saleem;
@@ -81,9 +81,30 @@
 }
 
 @font-face {
-    font-family: "muhammadi";
+    font-family: muhammadi;
     font-weight: normal;
-    scr: url("fonts/muhammadi.ttf") format('truetype');
+    src: url('fonts/muhammadi.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: Mehr;
+    font-weight: normal;
+    src: url('fonts/Mehr.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: AlQalam;
+    font-weight: normal;
+    src: url('fonts/AlQalam.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: NooreHira;
+    font-weight: normal;
+    src: url('fonts/NooreHira.ttf') format('truetype');
 }
 
 
