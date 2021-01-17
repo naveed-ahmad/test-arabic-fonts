@@ -149,6 +149,482 @@
     src: url("fonts/KFGQPC Uthmanic Script HAFS Regular.otf");
 }
 
+
+
+@font-face {
+    font-family: 'zarreen-bold-1';
+    
+    src: url('fonts/font-organizer/Zarreen-Bold.woff2') format('woff2');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Zarreen';
+    
+    src: url('fonts/font-organizer/Zarreen.woff') format('woff');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'transfonter.org-2020';
+    
+    src: url('fonts/font-organizer/Zarreen.woff2') format('woff2');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'alqalam-shakir-regul';
+    
+    src: url('fonts/font-organizer/AlQalamShakir.woff2') format('woff2');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'alqalam-fawad-light-';
+    
+    src: url('fonts/font-organizer/AlQalamFawadLight.woff2') format('woff2');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'alqalam-fawad-bold-r';
+    
+    src: url('fonts/font-organizer/AlQalamFawadBold.woff2') format('woff2');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'alqalam-fakhar-navee';
+    
+    src: url('fonts/font-organizer/AlQalamFakharNaveed.woff2') format('woff2');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'alfars-5-arabic-regu';
+    
+    src: url('fonts/font-organizer/AlFars5Arabic.woff2') format('woff2');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'aleem-urdu-unicode-r';
+    
+    src: url('fonts/font-organizer/AleemUrduUnicode.woff2') format('woff2');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'adobe-arabic-regular';
+    
+    src: url('fonts/font-organizer/AdobeArabic-Regular.woff2') format('woff2');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'adobe-arabic-bold-1';
+    
+    src: url('fonts/font-organizer/AdobeArabic-Bold.woff2') format('woff2');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Mehr';
+    
+    src: url('fonts/font-organizer/Mehr-Nastaliq.ttf') format('truetype'),
+url('fonts/font-organizer/MehrNastaliqWeb.svg#MehrNastaliqWeb.svg') format('svg');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Amiri_Quran_color';
+    
+    src: url('fonts/font-organizer/AmiriQuranColored.woff') format('woff'),
+url('fonts/font-organizer/AmiriQuranColored.woff2') format('woff2'),
+url('fonts/font-organizer/AmiriQuranColored.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Amiri_Quran';
+    
+    src: url('fonts/font-organizer/AmiriQuran.woff') format('woff'),
+url('fonts/font-organizer/AmiriQuran.woff2') format('woff2'),
+url('fonts/font-organizer/AmiriQuran.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Amiri';
+    
+    src: url('fonts/font-organizer/Amiri-Regular.woff') format('woff'),
+url('fonts/font-organizer/Amiri-Regular.woff2') format('woff2'),
+url('fonts/font-organizer/Amiri-Regular.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Amiri';
+    
+    src: url('fonts/font-organizer/Amiri-Bold.woff') format('woff'),
+url('fonts/font-organizer/Amiri-Bold.woff2') format('woff2'),
+url('fonts/font-organizer/Amiri-Bold.ttf') format('truetype');
+font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Noor_e_Quran';
+    
+    src: url('fonts/font-organizer/Noor_e_Quran.woff') format('woff'),
+url('fonts/font-organizer/Noor_e_Quran.otf') format('opentype'),
+url('fonts/font-organizer/Noor_e_Quran.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'noor-e-hidayat';
+    
+    src: url('fonts/font-organizer/noorehidayat.woff') format('woff'),
+url('fonts/font-organizer/noorehidayat.otf') format('opentype'),
+url('fonts/font-organizer/noorehidayat.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Nafees_nastaleeq';
+    
+    src: url('fonts/font-organizer/Nafees-Nastaleeq.woff') format('woff'),
+url('fonts/font-organizer/Nafees-Nastaleeq.otf') format('opentype'),
+url('fonts/font-organizer/Nafees-Nastaleeq.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Nafees_pak-web-naskh';
+    
+    src: url('fonts/font-organizer/nafees-pakistani-web-naskh.woff') format('woff'),
+url('fonts/font-organizer/nafees-pakistani-web-naskh.otf') format('opentype'),
+url('fonts/font-organizer/nafees-pakistani-web-naskh.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Nafees-web-naskh';
+    
+    src: url('fonts/font-organizer/nafees-web-naskh.woff') format('woff'),
+url('fonts/font-organizer/nafees-web-naskh.otf') format('opentype'),
+url('fonts/font-organizer/nafees-web-naskh.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Nafees_Riqa';
+    
+    src: url('fonts/font-organizer/nafees-riqa.woff') format('woff'),
+url('fonts/font-organizer/nafees-riqa.otf') format('opentype'),
+url('fonts/font-organizer/nafees-riqa.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Rouqa';
+    
+    src: url('fonts/font-organizer/Rouqa-Unicode.woff') format('woff'),
+url('fonts/font-organizer/Rouqa-Unicode.otf') format('opentype'),
+url('fonts/font-organizer/Rouqa-Unicode.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Kumail';
+    
+    src: url('fonts/font-organizer/kumail.woff') format('woff'),
+url('fonts/font-organizer/kumail.otf') format('opentype'),
+url('fonts/font-organizer/kumail.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Lateef';
+    
+    src: url('fonts/font-organizer/lateef.woff') format('woff'),
+url('fonts/font-organizer/lateef.otf') format('opentype'),
+url('fonts/font-organizer/lateef.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Telenor';
+    
+    src: url('fonts/font-organizer/AlQalam-Telenor.woff') format('woff'),
+url('fonts/font-organizer/AlQalam-Telenor.otf') format('opentype'),
+url('fonts/font-organizer/AlQalam-Telenor.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'unwan';
+    
+    src: url('fonts/font-organizer/unwan.woff') format('woff'),
+url('fonts/font-organizer/unwan.otf') format('opentype'),
+url('fonts/font-organizer/unwan.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Qadri_Najd';
+    
+    src: url('fonts/font-organizer/Qadri-Najd.woff') format('woff'),
+url('fonts/font-organizer/Qadri-Najd.otf') format('opentype'),
+url('fonts/font-organizer/Qadri-Najd.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Jameel';
+    
+    src: url('fonts/font-organizer/jameel.woff') format('woff'),
+url('fonts/font-organizer/jameel.otf') format('opentype'),
+url('fonts/font-organizer/jameel.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'bombay_black';
+    
+    src: url('fonts/font-organizer/Bombay-Black.woff') format('woff'),
+url('fonts/font-organizer/Bombay-Black.otf') format('opentype'),
+url('fonts/font-organizer/Bombay-Black.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Aslam';
+    
+    src: url('fonts/font-organizer/Aslam.woff') format('woff'),
+url('fonts/font-organizer/Aslam.otf') format('opentype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Aseer';
+    
+    src: url('fonts/font-organizer/Aseer.woff') format('woff'),
+url('fonts/font-organizer/Aseer.otf') format('opentype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Asad';
+    
+    src: url('fonts/font-organizer/Asad.woff') format('woff'),
+url('fonts/font-organizer/Asad.otf') format('opentype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Arif';
+    
+    src: url('fonts/font-organizer/Arif.woff') format('woff'),
+url('fonts/font-organizer/Arif.otf') format('opentype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Anwar';
+    
+    src: url('fonts/font-organizer/Anwar.woff') format('woff'),
+url('fonts/font-organizer/Anwar.otf') format('opentype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'alkatib';
+    
+    src: url('fonts/font-organizer/alkatib.woff') format('woff'),
+url('fonts/font-organizer/alkatib.otf') format('opentype'),
+url('fonts/font-organizer/alkatib.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Jameel_Nastaleeq';
+    
+    src: url('fonts/font-organizer/JameelNooriNastaleeq3.woff') format('woff'),
+url('fonts/font-organizer/JameelNooriNastaleeq3.otf') format('opentype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'urdu_emad_nast';
+    src: url('fonts/font-organizer/urduemadnastaleeqregular1.eot');
+    src: url('fonts/font-organizer/urduemadnastaleeqregular1.woff') format('woff'),
+url('fonts/font-organizer/urduemadnastaleeqregular1.ttf') format('truetype'),
+url('fonts/font-organizer/urduemadnastaleeqregular1.eot?#iefix') format('embedded-opentype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Quran_Publisher';
+    
+    src: url('fonts/font-organizer/AlQalamQuranPublisher.woff') format('woff'),
+url('fonts/font-organizer/AlQalamQuranPublisher.otf') format('opentype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'arabic_Scheherazade';
+    
+    src: url('fonts/font-organizer/Scheherazade-Regular.woff') format('woff'),
+url('fonts/font-organizer/Scheherazade-Regular.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'arabic_Scheherazade';
+    
+    src: url('fonts/font-organizer/Scheherazade-Bold.woff') format('woff'),
+url('fonts/font-organizer/Scheherazade-Bold.ttf') format('truetype');
+font-weight: 700;
+}
+
+@font-face {
+    font-family: 'quranic_saleem';
+    
+    src: url('fonts/font-organizer/PDMS_Saleem_QuranFont.woff') format('woff'),
+url('fonts/font-organizer/PDMS_Saleem_QuranFont.otf') format('opentype'),
+url('fonts/font-organizer/PDMS_Saleem_QuranFont.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'quranic_mushaf';
+    
+    src: url('fonts/font-organizer/2Al_mushaf.woff') format('woff'),
+url('fonts/font-organizer/2Al_mushaf.otf') format('opentype'),
+url('fonts/font-organizer/2Al_mushaf.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'quranic_muhammadi';
+    
+    src: url('fonts/font-organizer/1-MUHAMMADI-QURANIC-2.01.woff') format('woff'),
+url('fonts/font-organizer/1-MUHAMMADI-QURANIC-2.01.otf') format('opentype'),
+url('fonts/font-organizer/1-MUHAMMADI-QURANIC-2.01.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'attari_nuskh';
+    
+    src: url('fonts/font-organizer/attari_naskh-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/attari_naskh-webfont.woff') format('woff'),
+url('fonts/font-organizer/attari_naskh-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/attari_naskh-webfont.svg#attari_naskh-webfont.svg') format('svg');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'nafees_web_nuskh';
+    
+    src: url('fonts/font-organizer/nafees_pakistani_web_naskh_btk-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/nafees_pakistani_web_naskh_btk-webfont.woff') format('woff'),
+url('fonts/font-organizer/nafees_pakistani_web_naskh_btk-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/nafees_pakistani_web_naskh_btk-webfont.svg#nafees_pakistani_web_naskh_btk-webfont.svg') format('svg');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'KFGQPC';
+    
+    src: url('fonts/font-organizer/uthmantn1_ver10-webfont.woff') format('woff'),
+url('fonts/font-organizer/uthmantn1_ver10-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/uthmantn1_ver10-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/uthmantn1_ver10-webfont.svg#uthmantn1_ver10-webfont.svg') format('svg');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'KFGQPC';
+    
+    src: url('fonts/font-organizer/uthmantn1b_ver10-webfont.woff') format('woff'),
+url('fonts/font-organizer/uthmantn1b_ver10-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/uthmantn1b_ver10-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/uthmantn1b_ver10-webfont.svg#uthmantn1b_ver10-webfont.svg') format('svg');
+font-weight: 700;
+}
+
+@font-face {
+    font-family: 'me_quran';
+    
+    src: url('fonts/font-organizer/me_quran-webfont.woff') format('woff'),
+url('fonts/font-organizer/me_quran-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/me_quran-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/me_quran-webfont.svg#me_quran-webfont.svg') format('svg');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'aqashraf';
+    
+    src: url('fonts/font-organizer/alqalam_ashraf_font-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/alqalam_ashraf_font-webfont.woff') format('woff'),
+url('fonts/font-organizer/alqalam_ashraf_font-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/alqalam_ashraf_font-webfont.svg#alqalam_ashraf_font-webfont.svg') format('svg');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'jishtiaq';
+    
+    src: url('fonts/font-organizer/alqalam_jaan-e-ishtiaq-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/alqalam_jaan-e-ishtiaq-webfont.woff') format('woff'),
+url('fonts/font-organizer/alqalam_jaan-e-ishtiaq-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/alqalam_jaan-e-ishtiaq-webfont.svg#alqalam_jaan-e-ishtiaq-webfont.svg') format('svg');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'alinastaliq';
+    
+    src: url('fonts/font-organizer/ali_nastaliq_web_version-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/ali_nastaliq_web_version-webfont.woff') format('woff'),
+url('fonts/font-organizer/ali_nastaliq_web_version-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/ali_nastaliq_web_version-webfont.svg#ali_nastaliq_web_version-webfont.svg') format('svg');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'aasameer';
+    
+    src: url('fonts/font-organizer/aa-sameer-sagar-nastaleeq-bold-regular-1-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/aa-sameer-sagar-nastaleeq-bold-regular-1-webfont.woff') format('woff'),
+url('fonts/font-organizer/aa-sameer-sagar-nastaleeq-bold-regular-1-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/aa-sameer-sagar-nastaleeq-bold-regular-1-webfont.svg#aa-sameer-sagar-nastaleeq-bold-regular-1-webfont.svg') format('svg');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'ishtiaq';
+    
+    src: url('fonts/font-organizer/alqalam_ishtiaq-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/alqalam_ishtiaq-webfont.woff') format('woff'),
+url('fonts/font-organizer/alqalam_ishtiaq-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/alqalam_ishtiaq-webfont.svg#alqalam_ishtiaq-webfont.svg') format('svg');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'amarnastaleeq';
+    
+    src: url('fonts/font-organizer/amarnastaleeq-webfont-webfont.ttf') format('truetype'),
+url('fonts/font-organizer/amarnastaleeq-webfont-webfont.woff') format('woff'),
+url('fonts/font-organizer/amarnastaleeq-webfont-webfont.woff2') format('woff2'),
+url('fonts/font-organizer/amarnastaleeq-webfont-webfont.svg#amarnastaleeq-webfont-webfont.svg') format('svg');
+font-weight: normal;
+}
+
 .font-amiri {
     font-family: Amiri;
 }
